@@ -11,7 +11,10 @@ PATH = 'content'
 TIMEZONE = 'Asia/Shanghai'
 
 DEFAULT_LANG = 'en'
-
+#PLUGIN_PATHS = ['./plugins']
+#PLUGINS = ['']
+THEME = "./themes/notmyidea"
+SIDEBAR_ON_LEFT = True
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None

@@ -3,7 +3,7 @@ date: 12/02/2019
 tags: pelican, git
 keywords: pelican, git, blogging
 category: pelican
-slug: start_blogging_with_pelican_and_github
+slug: start-blogging-with-pelican-and-github
 author: John Yu
 summary: Pelican is a Python based static site generator great for making blogs with simply text. The content can be written in reStracutred or Markdown syntax. Both are easy to learn. Here I take notes on how to set up a Pelican site on GitHub. There are various ways to make such a site but I found the following to be most streamlined. I assume you are familiar with Python, MacOS/Linux command line, git commands.
 lang: en
@@ -13,13 +13,13 @@ status: published
 
 Pelican is a Python based static site generator great for making blogs with simply text. The content can be written in reStracutred or Markdown syntax. Both are easy to learn. Here I take notes on how to set up a Pelican site on GitHub. There are various ways to make such a site but I found the following to be most streamlined. I assume you are familiar with Python, MacOS/Linux command line, git commands.
 
-## Install Pelican
+# Install Pelican
 There are a few packaged to be installed before we can get Pelican running. Type in the following lines in your terminal. It's recommended to use a virtual environment.
 
 	$ pip install pelican markdown 
 
 
-## Set up username.github.io repositories
+# Set up username.github.io repositories
 If already registered an account, log in to Github and create two new repositories, username.github.io-src and username.github.io. The username.github.io-src repository will hold the sources of your blog and the username.github.io repository will contain the output HTML files Pelican generates. To add the output directory as a submodule, initialize it with a README file.
 
 
@@ -31,7 +31,7 @@ Then change directory to the site:
 
 	cd blog
 
-## Set up the blog with Pelican
+# Set up the blog with Pelican
 Double check that you’re working in the source git repository using:
 
 	git remote -v
@@ -73,7 +73,7 @@ You will receive an error message because the output directory already exists. I
 
 Open the publishconf.py file and set the DELETE\_OUTPUT\_DIRECTORY variable to False. 
 
-## Publish the first post
+# Publish the first post
 Write a quick post, I'd like to use Markdown but reStructured would work fine as well. Put the new post into the content folder and it's ready to go.
 
 Build your blog and test the results:
@@ -95,6 +95,8 @@ Due to the use of a submodule, you should do this with your output files before 
 	git commit -m "First commit."
 	git push -u origin master
 Now, you can visit the <https://username.github.io> and check out the new site.
+
+You can find the original post [here](https://fedoramagazine.org/make-github-pages-blog-with-pelican/).
 
 
 
