@@ -5,16 +5,20 @@ keywords: pelican, blogging
 category: blogging
 slug: pelican-themes-that-i-like
 author: John Yu
-summary: 
+summary: Pelican can use different theme to build static sites. Here are a list of these I found interesting. Check it out.
 lang: en
-status: draft
+status: published
+
+Pelican repository comes with a good number of [themes](https://github.com/getpelican/pelican-themes) to use when render you site/blog. Majority of the themes have [previews](http://www.pelicanthemes.com/). Here are a list of these I found interesting. The documentation part varies a lot from theme to theme. It will take a little time to figure it out if you are new to this. Check it out.
 
 
-
-[voidy-bootstrap](https://github.com/robulouski/voidy-bootstrap/tree/83f4d802710bbfa20123a9b7f1921424e292ef53)
+Theme: [voidy-bootstrap](https://github.com/robulouski/voidy-bootstrap/tree/83f4d802710bbfa20123a9b7f1921424e292ef53)  
+Reason: It's influenced by a blog I follow [Practical Business Python](https://pbpython.com/)
 ![](./images/voidy.png)
 
-[simple-bootstrap](https://github.com/getpelican/pelican-themes/tree/master/simple-bootstrap)
+
+Theme: [simple-bootstrap](https://github.com/getpelican/pelican-themes/tree/master/simple-bootstrap)  
+Reason: Simplicity, clean
 ![](./images/simple.png)
 
 [resume](https://github.com/suheb/resume/tree/ee7dcf1239a3554490f047ee36430d1a799a0882)
